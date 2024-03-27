@@ -243,9 +243,17 @@ footer {
         width: 90%;
         text-align: center;
     }
+    
+    .offer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
 
     .btn {
         width: 90%;
+
     }
 
     .form_input {
@@ -256,6 +264,15 @@ footer {
         width: 90%;
     }
 
+    .main_block {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .blocks {
+        width: 90%;
+    }
 
 }
 
