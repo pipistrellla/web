@@ -1,0 +1,50 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess the number</title>
+    <link rel="stylesheet" href="css/main.css" />
+    <!-- для анимаций -->
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+</head>
+
+<body>
+    <h1>ЛР 7 Угадай число</h1>
+
+    <div>
+        <h2>Правила и ход игры:</h2>
+        <ul>
+            <li>Компьютер загадывает случайное число от 1 до 10.</li>
+            <li>У игрока пять попыток, чтобы угадать число</li>
+            <li>После каждого ответа, компьютер будет давать подсказку число больше или меньеш</li>
+            <li>Если игрок угадывает, то он побеждает. Иначе должен начать все сначала</li>
+            <li>Игрок может вводить только числа!!!</li>
+            <li>Также игрок может изменить диапозон чисел</li>
+        </ul>
+    </div>
+
+    <div class="form">
+        <div for="userNumber">Какае число я загадал?: </div>
+        <input 
+            type="number" 
+            required id="guessField" 
+            class="guessField"
+            placeholder="Введите вашу догадку"
+        >
+        <button class="guessSubmit">Испытать удачу</button>
+    </div>
+
+    <div class="resultParas">
+        <p class="guesses"></p>
+        <p class="lastUserNumber"></p>
+        <p class="lowOrHi"></p>
+    </div>
+
+    <script>
+    </script>
+</body>
+</html>
