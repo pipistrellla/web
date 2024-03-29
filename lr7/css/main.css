@@ -24,3 +24,17 @@ body {
     width: 100%;
 }
 
+.result {
+    margin-top: 20px;
+    border: 2px solid black;
+    width: 400px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.result div {
+    margin: 10px
+}

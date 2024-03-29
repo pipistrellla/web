@@ -23,28 +23,29 @@
             <li>После каждого ответа, компьютер будет давать подсказку число больше или меньеш</li>
             <li>Если игрок угадывает, то он побеждает. Иначе должен начать все сначала</li>
             <li>Игрок может вводить только числа!!!</li>
-            <li>Также игрок может изменить диапозон чисел</li>
         </ul>
     </div>
 
-    <div class="form">
-        <div for="userNumber">Какае число я загадал?: </div>
+    <form class="form">
+        <div class="userNumber">Какае число я загадал? </div>
         <input 
             type="number" 
-            required id="guessField" 
+            id="guessField" 
             class="guessField"
             placeholder="Введите вашу догадку"
         >
-        <button class="guessSubmit">Испытать удачу</button>
+        <button class="guessSubmit" id="guessSubmit" >Испытать удачу</button>
+    </form>
+
+    <div class = 'result'>
+        <div>Прошлое число: <span class="lastUserNumber"></span></div>
+        <div>Колличество попыток:<span class="guessNumber"></span></div>
+        <div class="lowOrHigh"></div>
     </div>
 
-    <div class="resultParas">
-        <p class="guesses"></p>
-        <p class="lastUserNumber"></p>
-        <p class="lowOrHi"></p>
-    </div>
-
-    <script>
+    <script src = './js/index.js'>
     </script>
+
+    
 </body>
 </html>
