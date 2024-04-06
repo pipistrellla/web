@@ -74,7 +74,7 @@
     <div class="order" id ='order'>
         <div class="container">
             <h2 class="main_title">Оформление заказа</h2>
-            <form class="form">
+            <form class="form" method="post">
                 Введите имя:
                 <input class = "form_input"
                     id="firstName"
@@ -116,6 +116,7 @@
                 </select>
 
                 <button
+                    type="submit"
                     class="form_btn"
                     id="OrderButton">
                     Отправить заявку
@@ -127,12 +128,12 @@
     <div class="feedback">
         <div class="container">
             <h2 class="main_title">Форма заказа обратного звонка</h2>
-            <form class="form" >
-                <input class="form_input" type="text" placeholder="  Имя">
-                <input class="form_input" type="text" placeholder="  Введите свой E-mail">
-                <input class="form_input" type="tel" placeholder="  Телефон">
-                <input class="form_input" type="text" placeholder="  Какая тема Вас интересует?">
-                <button type="button" class="form_btn">Отправить вопрос!</button>
+            <form class="form" method="post" >
+                <input class="form_input" type="text" placeholder="  Имя" required>
+                <input class="form_input" type="text" placeholder="  Введите свой E-mail" required>
+                <input class="form_input" type="tel" placeholder="  Телефон" required>
+                <input class="form_input" type="text" placeholder="  Какая тема Вас интересует?" required>
+                <button type="submit" class="form_btn">Отправить вопрос!</button>
             </form>
         </div>
     </div>
