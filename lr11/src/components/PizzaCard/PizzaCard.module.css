@@ -1,0 +1,89 @@
+.pizzaCard {
+    display: flex;
+    border: 1px solid black;
+    border-radius: 20px;
+    width: 400px;
+    height: 100%;
+    font-size: 20px;
+    flex-direction: column;
+    box-shadow: 0px -5px 10px 0px rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+}
+
+.PizzaMark { 
+    position: relative;
+    background-color: orange;
+    color: white;
+    width: 35%;
+    padding-left: 8px;
+    top: -380px;
+}
+
+.pizzaPicture {
+    width: 100%;
+    min-height: 400px;
+}
+
+.mainPizzaBlock {
+    padding-left: 24px;
+    width: 85%;
+    position: relative;
+    top: -20px;
+}
+
+.pizzaTitle {
+    font-weight: bolder;
+    font-size: 26px;
+}
+
+.pizzaDescription {
+    margin-top: 4px;
+    font-size: 15px;
+    color: rgb(0,0,0,0.5);
+}
+
+.pizzaSelect{
+    margin-top: 40px;
+    width: 150px;
+    font-size: 16px;
+    padding: 8px;
+    color: rgb(0,0,0,0.5);
+    border-radius: 6px;
+}
+
+
+.pizzaPrice {
+    font-size: 26px;
+    margin-top: 10px;
+}
+
+.cartImage {
+    margin-left: 10px;
+    width: 50px;
+}
+
+.count {
+    width: 40px;
+    height: 30px;
+    font-weight: bold;
+    font-size: 16px;
+    border: 1px solid rgb(0,0,0,0.5);
+    cursor: pointer;
+}
+
+.counter {
+    width: 60px;
+    height: 28px;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgb(0,0,0,0.5);
+}
+
+.pizzaOrderSection {
+    display: flex;
+    align-items: center;
+
+}
+
