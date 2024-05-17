@@ -12,4 +12,5 @@ export const publicRoutes = [
     { path: '/portfolio', component: Portfolio, exact: true },
     { path: '/products', component: Products, exact: true },
     { path: '/services', component: Sercives, exact: true },
+    { path: '/*', component: AboutUs, exact: true },
 ];

@@ -12,7 +12,7 @@ const Navbar = () => (
 
         <img
             src={Logo}
-            className={cls.icon}
+            className={cls.logo}
             alt="logo"
         />
 
