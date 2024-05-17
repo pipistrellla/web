@@ -1,0 +1,19 @@
+.Button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.red {
+    background-color: orange;
+    color: white;
+}
+
+.blue {
+    background-color: purple;
+    color: white;
+}

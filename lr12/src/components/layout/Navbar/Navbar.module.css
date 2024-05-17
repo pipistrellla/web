@@ -1,0 +1,25 @@
+.Navbar {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.NavbarLinks {
+    display: flex;
+
+}
+
+.text {
+    margin: 20px;
+    font-size: 25px;
+}
+
+.icon {
+    margin: 10px;
+}
+
+.navbarBtn {
+    display: flex;
+    margin: 20;
+}
